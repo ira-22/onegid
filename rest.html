@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Rest</title>
+		<link rel="stylesheet" href="./css/rest.css" />
+        <link rel="stylesheet" href="./css/fonts.css">
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<div class="header__top">
+					<nav class="nav">
+						<div class="nav__logo">
+							<h2 class="logo"><a href="index.html">
+								<img src="./img/header/log.png" alt="logo" width="108px" height="29.22px">
+							</a></h2>
+						</div>
+
+						<ul class="nav__list nav__list--header">
+							<li><a href="https://ksu.edu.ru/">Сайт КГУ</a></li>
+							<li><a href="https://sdo.ksu.edu.ru/">СДО КГУ</a></li>
+							<li><a href="https://ksu.edu.ru/svedeniya-ob-organizatsii/osnovnye-svedeniya/kontaktnaya-informatsiya.html">Контакты</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+        <div class="btn-up btn-up_hide"></div>
+		<main class="">
+            <div class="container__text">
+
+                <div class="breadcrumbs">
+
+                    <a href="index.html">Главная</a> >
+                  
+                    <a href="/category/widgets">Отдых</a>
+                  </div>
+
+                <h1 class="title-1">Отдых</h1>
+                <p>На этой страничке предоставлена информация о том, где в нашем городе можно отдохнуть и интересно 
+                    провести время. В списке можно найти как новое хобби, так и идею для провождения выходного дня. 
+                    Для удобства места отдыха сгруппированы по локациям учебных корпусов.</p>
+                
+                <div class="indent">
+                    <div class="box">
+                        <hr class="line">
+                        <div class="label">Главный корпус КГУ (и ближайшие к нему)</div>
+                        <div class="content">
+                            <ol>
+                                <li>Костромская филармония (<b>ул. Советская, 58</b>).</li>
+                                <li>Музей истории Костромского края (<b>ул. Дзержинского, 9б</b>).</li>
+                                <li>Компьютерный клуб «CyberX» (<b>ул. Лермонтова, 1А</b>).</li>
+                                <li>КотоКафе «Мао» – уютное место в Костроме, где обитает много котиков! Точно подойдет тем, 
+                                кто обожает проводить время с пушистыми друзьями (<b>ул. Советская, 45А</b>).</li>
+                                <li>Экзотариум – зоопарк с экзотическими животными из разных уголков планеты (<b>ул. Советская, 53Б</b>).</li>
+                                <li>Клуб виртуальной реальности «Vr Клуб City17» (<b>ул. Смоленская, 33</b>).</li>
+                                <li>Пейнтбольный клуб «Снайпер» (<b>Петрковский б-р, 64</b>).</li>
+                                <li>Фабрика современных прикладных искусств «ХЛЕБЪ» – творческое пространство и идейное производство. 
+                                Здесь научат делать сувениры, посуду, мебель и писать полотна своими руками (<b>ул. Горная, 3</b>).</li>
+                                <li>Художественная студия «АртДом» – мастер-классы по рисованию (<b>ул. Мясницкая, 19а</b>).</li>
+                                <li>Учебный центр «Не школа барабанов» – обучение игре на барабанах (<b>Кинешемское шоссе, 21/1</b>).</li>
+                                <li>Гончарная мастерская «ДоброРум» (<b>ул. Давыдовская, 17</b>).</li>
+                                <li>Кинотеатр «Пять звёзд» (<b>Красносельское шоссе, 1</b>, ТРЦ «Коллаж»).</li>
+                            </ol>
+                                <div class="section-map__map">
+                                    <div class="map" id="map">
+                                    </div>
+                                </div>
+                        </div>
+                        <hr class="line">
+                    </div>
+                    <div class="box">
+                        <div class="label">Корпус «Е» КГУ</div>
+                        <div class="content">
+                            <ol>
+                                <li>Академия танца Ксении Чикулаевой (<b>ул. Суслова, 2А</b>).</li>
+                                <li>Компьютерный клуб «CyberX» (<b>Михалевский пр-д, 9б</b>).</li>
+                                <li>Кинотеатр «Синема Стар» (<b>ул. Магистральная, 20</b>, ТРЦ "РИО").</li>
+                                <li>Парк «Заволжье» (<b>1-й Пантусовский пр-д, 7</b>).</li>
+                            </ol>
+        
+                            <div class="section-map__map">
+                                <div class="map" id="map1">
+                                </div>
+                            </div>
+                      </div>
+                      <hr class="line">
+                    </div>
+                    <div class="box">
+                        <div class="label">Корпус «В1» КГУ (и ближайшие к нему)</div>
+                        <div class="content">
+                            <ol>
+                                <li>Костромской государственный драматический театр им. А. Н. Островского (<b>пр. Мира, 9</b>).</li>
+                                <li>Камерный драматический театр под руководством Б.И. Голодницого (<b>ул. Симановского, 11</b>).</li>
+                                <li>Романовский музей – музей изобразительного искусства (<b>проспект Мира, 7</b>).</li>
+                                <li>Учебный центр «Не школа гитары» – обучение игре на гитаре (<b>проспект Текстильщиков, 33</b>).</li>
+                                <li>Арт-площадка «Станция» (<b>ул. Ерохова, 3А</b>).</li>
+                                <li>Клуб спортивного бального танца «Па» (<b>ул. Козуева, 15</b>).</li>
+                                <li>Клуб метания топоров «Раскольников» (<b>ул. Князева, 11А</b>).</li>
+                            </ol>
+                            <div class="section-map__map">
+                                <div class="map" id="map2">
+                            </div>
+                        </div>
+                        </div>
+                        <hr class="line">
+                    </div>
+                    <div class="box">
+                        <div class="label">Корпус Института педагогики и психологии</div>
+                        <div class="content">
+                            <ol>
+                                <li>Зоопарк (<b>ул. Ленина, 175</b>).</li>
+                                <li>Берендеевка (<b>ул. Ленина, 150</b>).</li>
+                                <li>Дендропарк <b>конец улицы Ленина</b>, после перекрестка с улицей Красная Маевка поворот 
+                                направо (если ехать из Костромы).</li>
+                            </ol>
+                            <div class="section-map__map">
+                                <div class="map" id="map3">
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="line">
+                    </div>
+                </div>
+                <div class="indent">
+                    <p>Желаем приятного времяпрепровождения!</p>
+                </div>
+                <a href="index.html" class="button">На главную</a>
+            </div>
+		</main>
+
+		<footer class="footer">
+			<div class="container">
+				<nav class="nav nav--footer">
+					<div class="nav__logo">
+						<h2 class="logo logo--footer"><a href="index.html">
+							<img src="./img/header/ksu-log.png" alt="logo" width="108px" height="29.22px">
+						</a></h2>
+					</div>
+
+					<ul class="nav__list nav__list--footer">
+						<li><a href="https://ksu.edu.ru/">Сайт КГУ</a></li>
+						<li><a href="https://sdo.ksu.edu.ru/">СДО КГУ</a></li>
+						<li><a href="https://ksu.edu.ru/svedeniya-ob-organizatsii/osnovnye-svedeniya/kontaktnaya-informatsiya.html">Контакты</a></li>
+					</ul>
+				</nav>
+			</div>
+		</footer>
+
+		<script src="https://api-maps.yandex.ru/2.1/?apikey=4f537583-9ef9-4998-a98b-9a6ee160a9d3&lang=ru_RU" type="text/javascript"></script>
+
+        <script src="./js/rest.js"></script>
+        <script src="./js/rest_1.js"></script>
+        <script src="./js/rest_2.js"></script>
+        <script src="./js/rest_3.js"></script>
+        <script src="./js/accord.js"></script>
+        <script src="./js/scroll.js"></script>
+	
+	</body>
+</html>
