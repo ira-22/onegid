@@ -1,0 +1,88 @@
+/* Для заголовков */
+
+@font-face {
+    font-family: 'IBMPlexSans-Bold';
+    src: url('/fonts/IBMPlexSans-Bold.woff2') format('woff2'),
+        url('/fonts/IBMPlexSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBMPlexSans-Light';
+    src: url('/fonts/IBMPlexSans-Light.woff2') format('woff2'),
+        url('/fonts/IBMPlexSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBMPlexSans-Medium';
+    src: url('/fonts/IBMPlexSans-Medium.woff2') format('woff2'),
+        url('/fonts/IBMPlexSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBMPlexSans';
+    src: url('/fonts/IBMPlexSans.woff2') format('woff2'),
+        url('/fonts/IBMPlexSans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Наборный */
+
+@font-face {
+    font-family: 'PTRootUI-Bold';
+    src: url('/fonts/PTRootUI-Bold.woff2') format('woff2'),
+        url('/fonts/PTRootUI-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PTRootUI-Medium';
+    src: url('/fonts/PTRootUI-Medium.woff2') format('woff2'),
+        url('/fonts/PTRootUI-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PTRootUI-Light';
+    src: url('/fonts/PTRootUI-Light.woff2') format('woff2'),
+        url('/fonts/PTRootUI-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PTRootUI-Regular';
+    src: url('/fonts/PTRootUI-Regular.woff2') format('woff2'),
+        url('/fonts/PTRootUI-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Специальный */
+
+@font-face {
+    font-family: 'FrinkRio-Regular';
+    src: url('/fonts/FrinkRio-Regular.woff2') format('woff2'),
+        url('/fonts/FrinkRio-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
